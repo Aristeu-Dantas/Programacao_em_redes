@@ -1,7 +1,4 @@
-#Igor Henrique
-
-import dpkt
-import datetime
+import dpkt, datetime
 
 def processar_captura(arquivo):
     with open(arquivo, 'rb') as f:
