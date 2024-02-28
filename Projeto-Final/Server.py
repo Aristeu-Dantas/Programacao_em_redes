@@ -1,6 +1,4 @@
-import socket
-import threading
-import sys
+import socket, threading, sys
 
 # Lista para armazenar todas as conexões de clientes ativos
 client_connections = []
